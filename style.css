@@ -1,1 +1,97 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
+body {
+    max-width: 100vw;
+    font-family: Arial, sans-serif;
+    background-color: #88D49E; /* Verde Pérola */
+    color: #002244; /* Azul Marinho */
+}
+
+header {
+    background-color: #002244; /* Azul Marinho */
+    color: #88D49E; /* Verde Pérola */
+    text-align: center;
+    padding: 24px 16px;
+}
+
+header h1 {
+    margin-bottom: 8px;
+}
+
+main {
+    background-color: #88D49E;
+    padding: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+article {
+    background-color: #ffffff;
+    border: 2px solid #002244;
+    border-radius: 8px;
+    padding: 16px;
+    flex: 1 1 300px;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 12px;
+    border-radius: 50%;
+}
+
+h2 {
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+    color: #002244;
+}
+
+.artigo-autor {
+    font-weight: bold;
+    font-size: 0.9rem;
+    margin-bottom: 8px;
+}
+
+.artigo-fonte {
+    font-size: 0.8rem;
+    font-style: italic;
+    margin: 8px 0;
+    color: #555555;
+}
+
+button {
+    background-color: #002244;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px;
+    margin: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #1a3a5c;
+}
+
+button.curtido {
+    background-color: #88D49E;
+    color: #002244;
+    font-weight: bold;
+    border: 1px solid #002244;
+}
